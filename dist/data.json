@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"id": 1, "title": "BMW", "price": 100000},
+    {"id": 2, "title": "Mercedes", "price": 90000},
+    {"id": 3, "title": "Audi", "price": 50000},
+    {"id": 4, "title": "Toyota", "price": 5000},
+    {"id": 5, "title": "Lexus", "price": 999}
+  ]
+}
