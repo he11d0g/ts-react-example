@@ -1725,6 +1725,12 @@ react-dom@^15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-stores@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/react-stores/-/react-stores-1.1.9.tgz#9ee7e41ad4b2febc21dc841a7270dff5dcf36a15"
+  dependencies:
+    react "^15.4.2"
+
 react@^15.4.2:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.2.tgz#41f7991b26185392ba9bae96c8889e7e018397ef"

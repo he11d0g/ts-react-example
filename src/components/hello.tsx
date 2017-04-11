@@ -1,6 +1,8 @@
 import * as React from 'react';
 import * as request from 'superagent';
 import {Content, TableItem} from './content';
+import {CommonCounter} from './common-counter';
+import {CommonCounter1} from './common-counter-1';
 
 interface Props {
 	name: string
@@ -108,6 +110,14 @@ export class Hello extends React.Component <Props, State> {
 					Like +1
 				</button>
 
+				<hr/>
+				<CommonCounter name="Alpha"/>
+
+				<hr/>
+				<CommonCounter1 name="Bravo"/>
+				<hr/>
+
+				<CommonCounter1 name="Charlie"/>
 				<hr/>
 
 				<Content loading={this.state.loading} data={this.state.data}/>
